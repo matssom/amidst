@@ -20,7 +20,7 @@ Amidst can be used on static and dynamic pages. The library was designed with `r
 
 Install the package:
 
-```
+```.js
 npm install amidst --save
 yarn add amidst
 ```
@@ -40,7 +40,7 @@ Download `amidst.js` and `amidst.css` on [amidst.com](https://amidst.com/downloa
 
 Link locally in your `index.html` file:
 
-```
+```.html
 <link rel="stylesheet" href="./path/to/amidst.css">
 <script src="./path/to/amidst.js">
 ```
@@ -54,7 +54,7 @@ CDN hosted on [amidstjs.com/cdn](https://amidstjs.com/cdn)
 
 Link in your index.html:
 
-```
+```.html
 <link rel="stylesheet" href="http://amidstjs.com/cdn/main.css">
 <script src="http://amidstjs.com/cdn/main.js">
 ```
