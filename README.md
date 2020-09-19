@@ -1,4 +1,4 @@
-<img src="./banner.jpg">
+<img src="./assets/banner.jpg">
 
 **Do you find that amidst the thousands of code lines, you forget the actual end-user sometimes?**
 
