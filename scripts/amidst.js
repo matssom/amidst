@@ -1,10 +1,3 @@
-document.head.innerHTML += '<link rel="stylesheet" href="amidst.css">';
-
-/*
-    Adding user-is-tabbing class to the body if the user starts tabbing.
-    This way we can know when to show outlines on for keyboard-users.
-*/
-
 const handleFirstTab = (e) => {
     if (e.keyCode === 9) {
         document.body.classList.add('user-is-tabbing');
@@ -15,9 +8,6 @@ const handleFirstTab = (e) => {
 window.addEventListener('keydown', handleFirstTab);
 
 
-/*
-    Appending accessable atributes to HTML5 tags
-*/
 
 document.addEventListener("DOMContentLoaded", () => {
 
