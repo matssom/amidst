@@ -5,8 +5,10 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "style": "sass sass/amidst.scss dist/sass.css"
+    "js": "webpack",
+    "style": "sass development/sass/amidst.scss dist/sass.css",
+    "css": "sass development/css/amidst.css test/amidst.css",
+    "build": ""
   },
   "repository": {
     "type": "git",

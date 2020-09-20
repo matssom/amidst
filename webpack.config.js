@@ -1,10 +1,13 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js',
-  output: {
-    filename: 'amidst.js',
-    path: path.resolve(__dirname, 'dist'),
-  },
-  watch: true
+  	entry: './development/src/index.js',
+  	output: {
+    	filename: 'amidst.js',
+    	path: path.resolve(__dirname, 'test'),
+	},
+	watch: true,
+	optimization: {
+		runtimeChunk: true,
+	}
 };
