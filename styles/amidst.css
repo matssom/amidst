@@ -60,7 +60,9 @@ body:not(.user-is-tabbing) a:focus {
   outline: none;
 }
 
-/* Preventing images from being wider than it's container by default */
+/* 
+    Preventing images from being wider than it's container by default 
+*/
 img {
 	max-width: 100%;
 }
