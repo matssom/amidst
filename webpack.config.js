@@ -4,7 +4,16 @@ module.exports = {
   	entry: './src/index.js',
   	output: {
     	filename: 'amidst.js',
-    	path: path.resolve(__dirname, 'test'),
+    	path: path.resolve(__dirname, './'),
 	},
-	watch: true
+	watch: true,
+	module: {
+		rules: [
+			{
+				test: /\.css$/i,
+				use: ['style-loader', 'css-loader'],
+			},
+		],
+	},
+	mode: 'production'
 };
