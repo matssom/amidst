@@ -1,4 +1,4 @@
-<img src="./assets/banner.jpg">
+<img src="./banner.jpg">
 
 ## What is Amidst?
 
