@@ -4,13 +4,11 @@
 
 Amidst is a styling library that makes your webapps more accessible and consistent with only 1 line of code. Amidst will also **(in the future)** expose styling tools and classes that you can take advantage of to achieve a more responsive, accessible and consistent look across your app.
 
-**Do you remember to think about the user amidst the thousands of lines of code in your project?**
-
 <br>
 
-## What does it do?
+## What do I need to know?
 
-Amidst fixes small issues you face as a developer and user. Here is a few examples:
+There is very few things you need to think about when using Amidst, but here are a few things Amidst does that is worth knowing about:
 
 - Preventing the page-with from jumping when moving from a non-scrollable page to a scrollable one. This issue mostly affects windows users.
 - Enhances the behaviour when tabbing through a site. Automatically applies outline to focused elements when tabbing without disturbing the usual behaviour when clicking around on the webpage.
@@ -24,7 +22,7 @@ For more information, look at the fully commented `amidst.css` file in the root 
 <hr>
 
 :warning: **WARNING:**
-> This library is currently in very early development and current features may brake in future updates.
+> This library is in very early development and current features may brake in future updates.
 
 <br>
 
