@@ -1,0 +1,11 @@
+.banner {
+    height: 50vh;
+    text-align: center;
+    position: relative;
+}
+
+.banner__text {
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
