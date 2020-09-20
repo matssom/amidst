@@ -8,7 +8,7 @@ Amidst is a styling library that makes your webapps more accessible and consiste
 
 ## What do I need to know?
 
-There is very few things you need to think about when using Amidst, but here are a few things Amidst does that is worth knowing about:
+There are very few things you need to think about when using Amidst, but here are a few things Amidst does that is worth knowing about:
 
 - Preventing the page-with from jumping when moving from a non-scrollable page to a scrollable one. This issue mostly affects windows users.
 - Enhances the behaviour when tabbing through a site. Automatically applies outline to focused elements when tabbing without disturbing the usual behaviour when clicking around on the webpage.
