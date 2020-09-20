@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/matssom/amidst.git"
   },
-  "author": "Mats Sommervold <mats@sommervold.net>",
+  "author": "Mats Sommervold <mats@sommervold.net> (https://matssommervold.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/matssom/amidst/issues"
