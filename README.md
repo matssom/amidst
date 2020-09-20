@@ -11,8 +11,8 @@ Amidst is a styling library that makes your webapps more accessible and consiste
 ## Installation
 <hr>
 
-:warning: **WARNING:**
->This library is currently in very early development and not yet available for download and installation. Clone this repo and import the `amidst.css` and `amidst.js` files into your project if you still would like to try.
+> :warning: **WARNING:**
+> This library is currently in very early development and not yet available for download and installation. Clone this repo and import the `amidst.css` and `amidst.js` files into your project if you still would like to try.
 
 Amidst can be used on static and dynamic pages. The library was designed with `react` in mind; however, does not depend on it.
 
