@@ -3,6 +3,8 @@
 /* 
     Makes every element inherit box-sizing from the body
 */
+@import "mixin";
+
 *,
 *::before,
 *::after {
@@ -46,7 +48,7 @@ body {
 */
 *:focus {
 	outline: 2px solid gray;
-	outline-offset: 3px	;
+	outline-offset: 3px;
 }
 
 /* 

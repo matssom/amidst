@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/matssom/amidst#readme",
   "devDependencies": {
+    "sass": "^1.26.11",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   }

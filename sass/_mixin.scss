@@ -1,0 +1,34 @@
+@mixin media ($device) {
+    //600 px
+    @if $device == "phone" {
+        @media (min-width: 37.5em) {
+            @content;
+        }
+    }
+    //900 px
+    @if $device == "tablet" {
+        @media (min-width: 56.25em) {
+            @content;
+        }
+    }
+    //1200px
+    @if $device == "laptop" {
+        @media (min-width: 75em) {
+            @content;
+        }
+    }
+    //1800 px
+    @if $device == "desktop" {
+        @media (min-width: 112.5em) {
+            @content;
+        }
+    }
+}
+
+@mixin clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
