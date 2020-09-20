@@ -13,7 +13,7 @@
     (1) Setting the default font-size to 62.5% of the user agent stylesheet.
         This results in 1rem beeing equal to 10px if the user agent stylesheet is set to 16px.
         Calculations will be much easier for the developer if 1rem == 10px
-    (2) Ensuring the height of the html element does not prevent inner tags from expanding
+    (2) Ensuring the height of the html element does not prevent body tags from expanding
     (3) Permanently enables the scrollbar to avoid rezising when moving between scrollable and non-scrollable pages on windows.
 */
 html {
@@ -26,7 +26,6 @@ html {
 /*
     (1) Padding and border becomes a part of the entire elements width
     (2) Removes the default body margin
-    (3) Ensuring the height of the body element does not prevent inner tags from expanding
     (4) Setting font-size back to the default user agent stylesheet (16px)
     (5) Adding fallback fonts
     (6) Setting font color to be a tiny bit lighter than black.
@@ -34,8 +33,6 @@ html {
 body {
 	box-sizing: border-box; /* (1) */
 	margin: 0; /* (2) */
-	height: 100%; /* (3) */
-	width: 100%; /* (3) */
 	font-size: 1.6rem; /* (4) */
 	font-family: Arial, Helvetica, sans-serif; /* (5) */
 	color: #1b1b1b; /* (6) */
@@ -68,7 +65,7 @@ img {
 }
 
 /* 
-    Making HTML5 elements work better in older browsers
+    Making semantic HTML5 elements work better in older browsers
 */
 header, article, section, nav, aside, details, 
 figcaption, footer, hgroup, menu, figure {
