@@ -8,6 +8,18 @@ Amidst is a styling library that makes your webapps more accessible and consiste
 
 <br>
 
+## What does it do?
+
+Amidst fixes small issues you face as a developer and user. Here is a few examples:
+
+- Preventing the page-with from jumping when moving from a non-scrollable page to a scrollable one. This issue mostly affects windows users.
+- Enhances the behaviour when tabbing through a site. Automatically applies outline to focused elements when tabbing without disturbing the usual behaviour when clicking around on the webpage.
+- Sets the value `1rem = 10px` without disturbing the accessability features of the user agent stylesheet. This enables developers to calculate relative font-sizes much easier. (`1.8rem = 18px` etc...)
+
+For more information, look at the fully commented `amidst.css` file in the root of [this](https://github.com/matssom/amidst.git) repository.
+
+<br>
+
 ## Installation
 <hr>
 
@@ -78,18 +90,6 @@ You can optionally download and include the stylesheet in the head of your `inde
     <script src="./path/to/amidst.js"></script>
 </body>
 ```
-<br>
-
-## What does it do?
-
-Amidst fixes small issues you face as a developer and user. Here is a few examples:
-
-- Preventing the page-with from jumping when moving from a non-scrollable page to a scrollable one. This issue mostly affects windows users.
-- Enhances the behaviour when tabbing through a site. Automatically applies outline to focused elements when tabbing without disturbing the usual behaviour when clicking around on the webpage.
-- Sets the value `1rem = 10px` without disturbing the accessability features of the user agent stylesheet. This enables developers to calculate relative font-sizes much easier. (`1.8rem = 18px` etc...)
-
-For more information, look at the fully commented `amidst.css` file in the root of [this](https://github.com/matssom/amidst.git) repository.
-
 <br>
 
 ## Configuration
