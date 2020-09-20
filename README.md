@@ -31,7 +31,7 @@ Amidst can be used on static and dynamic pages. The library was designed with `r
 <br>
 
 :exclamation: **Note:**
-Amidst works with normalize.css, but include normalize.css first for the best results.
+Amidst works with `normalize.css`, but include `normalize.css` **first** for the best results.
 
 <br>
 
