@@ -1,8 +1,8 @@
 {
   "name": "amidst",
-  "version": "1.0.0-alpha",
-  "description": "Styling library to improve accessibility and consistancy",
-  "main": "amidst.js",
+  "version": "0.0.1-beta",
+  "description": "A css reset with a hint of javascript to make sites accessible. Ment to use alongside libraries like normalize.css",
+  "main": "index.js",
   "scripts": {
     "minify": "webpack --config webpack.config.js",
     "bundle": "webpack --config webpack.bundle.js"
@@ -27,7 +27,9 @@
   },
   "files": [
     "banner.jpg",
-    "amidst.css"
+    "amidst.css",
+    "amidst.js",
+    "amidst.bundle.js"
   ],
   "dependencies": {
     "mini-css-extract-plugin": "^1.2.1",

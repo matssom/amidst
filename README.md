@@ -47,7 +47,7 @@ npm install amidst --save
 Import the package in your root `index.js` file:
 
 ```js 
-import 'amidst';
+import { amidstBundle } from 'amidst';
 ```
 
 :exclamation: **Note:**
@@ -56,6 +56,8 @@ If you want to minimize the file footprint (2kb instead of 6kb), you can include
 ```js
 import { amidstCSS, amidstJs } from 'amidst';
 ```
+
+
 
 <br>
 
