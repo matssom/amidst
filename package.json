@@ -1,6 +1,6 @@
 {
   "name": "amidst",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "A css reset with a hint of javascript to make sites accessible. Ment to use alongside libraries like normalize.css",
   "main": "index.js",
   "scripts": {
