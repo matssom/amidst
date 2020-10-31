@@ -1,12 +1,11 @@
 {
   "name": "amidst",
-  "version": "1.0.0-alpha",
-  "description": "Styling library to improve accessibility and consistancy",
-  "main": "amidst.js",
+  "version": "1.0.0-beta",
+  "description": "A css reset with a hint of javascript to make sites accessible. Ment to use alongside libraries like normalize.css",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "js": "webpack",
-    "build": ""
+    "minify": "webpack --config webpack.config.js",
+    "bundle": "webpack --config webpack.bundle.js"
   },
   "repository": {
     "type": "git",
@@ -20,12 +19,20 @@
   "homepage": "https://github.com/matssom/amidst#readme",
   "devDependencies": {
     "css-loader": "^4.3.0",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
   "files": [
     "banner.jpg",
-    "amidst.css"
-  ]
+    "amidst.css",
+    "amidst.js",
+    "amidst.bundle.js"
+  ],
+  "dependencies": {
+    "mini-css-extract-plugin": "^1.2.1",
+    "on-build-webpack": "^0.1.0"
+  }
 }
