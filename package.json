@@ -4,9 +4,8 @@
   "description": "Styling library to improve accessibility and consistancy",
   "main": "amidst.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "js": "webpack",
-    "build": ""
+    "minify": "webpack --config webpack.config.js",
+    "bundle": "webpack --config webpack.bundle.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,8 @@
   "homepage": "https://github.com/matssom/amidst#readme",
   "devDependencies": {
     "css-loader": "^4.3.0",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
@@ -27,5 +28,9 @@
   "files": [
     "banner.jpg",
     "amidst.css"
-  ]
+  ],
+  "dependencies": {
+    "mini-css-extract-plugin": "^1.2.1",
+    "on-build-webpack": "^0.1.0"
+  }
 }
