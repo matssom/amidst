@@ -1,5 +1,5 @@
 <img src="./banner.jpg">
 
-## What is Amidst?
+## Name Change!
 
-This library has changed name to `accessible-reset` and has movet [this](https://github.com/matssom/accessible-reset) repository.
+This library has changed name to `accessible-reset` and has moved [this](https://github.com/matssom/accessible-reset) repository.
